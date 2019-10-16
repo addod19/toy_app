@@ -6,22 +6,17 @@
 
 ![screenshot](public/screenshot.png)
 
-## Live version
-
-Follow the link to acess to the live version on heroku: https://sleepy-shelf-00345.herokuapp.com/
-
 ## Getting started
 
-To get started with the app, first clone the repo
+To get started with the app, first clone the repo 
 
+``` 
+git clone  https://github.com/addod19/toy_app.git 
 ```
-git clone  https://github.com/addod19/toy_app.git
-```
-
 Then install the needed gems:
 
 ```
-bundle install --without production
+bundle install --without production 
 ```
 
 Next, migrate the database:
